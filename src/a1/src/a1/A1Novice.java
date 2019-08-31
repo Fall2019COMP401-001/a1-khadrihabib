@@ -12,9 +12,12 @@ public class A1Novice {
 		int count = scan.nextInt();
 		String[] fnames = new String[count];
 		String[] lnames = new String[count];
+		String[] grocitem = new String[count];
 		double[] tprice = new double[count]; // an array of doubles (prices)
 
 		for (int i = 0; i < count; i++) { // for loop for the customers
+			grocitem[i] = scan.next();
+			tprice[i] = scan.nextDouble();
 			fnames[i] = scan.next();
 			lnames[i] = scan.next();
 			int item = scan.nextInt();
