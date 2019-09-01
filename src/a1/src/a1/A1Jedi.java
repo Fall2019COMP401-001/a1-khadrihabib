@@ -34,10 +34,10 @@ public class A1Jedi {
 					}
 				}
 				howManyItems[index] += grocPerCustomer;
-				if (!buyer[index])
+				if (!buyer[index]) {
 					;
 				numberOfCustomers[index] += 1;
-
+			}
 				buyer[index] = true;
 			}
 		}
